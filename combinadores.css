@@ -1,0 +1,45 @@
+/* Desendentes 
+
+.listas .lista{
+    text-decoration: underline;
+}
+
+.todo .lista{
+    list-style: decimal;
+}
+
+.dias .lista{
+    list-style: node;
+    background-color: yellow;
+}
+
+/*Hijos deirectos
+
+.listas > .lista{
+    list-style: upper-roman;
+    background-color: blue;
+}
+.dias > .lista{
+    color: orangered;
+    font-size: ;
+}
+
+.subtitulo + .parrafo{
+    background: yellow;
+    overflow: hidden;
+}
+
+.parrafo{
+    background: red;
+}
+
+.subtitulo:hover + .parrafo{
+    opacity: 1;
+    height: 50px;
+}*/
+
+/* Hermanos generales */
+
+.subtitulo ~ .parrafo{
+    background-color: tomato;
+}
